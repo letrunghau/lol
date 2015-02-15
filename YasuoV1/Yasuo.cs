@@ -567,7 +567,7 @@ namespace YasuoV1
             }
             if (!YasuoS.Config.Item("useRHitTime").GetValue<bool>())
                 lessKnockTime = 0;
-            return enemKonck;
+            return enemKnock;
         }
 
 
